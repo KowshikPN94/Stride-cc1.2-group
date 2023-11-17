@@ -19,9 +19,13 @@
 }
 
 
+body {
+  color: blue;
+}
+
 
 .container>h2 {
-  color: gray;
+  color: red;
   font-size: 80px;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
@@ -31,8 +35,8 @@
 }
 
 .container>p {
-  color: gray;
-  font-size: 48px;
+  color: blue;
+  font-size: 30px;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   text-align: center;
@@ -41,8 +45,8 @@
 }
 
 .container>h3 {
-  color: gray;
-  font-size: 80px;
+  color: blue;
+  font-size: 60px;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   text-align: center;
@@ -51,7 +55,7 @@
 }
 
 body {
-  background-image: url('images/background.jpeg');
+  background-image: url('images/america.jpg');
 }
 
 .newlogo{
