@@ -1,0 +1,215 @@
+.menu1 {
+  width: 960px;
+}
+.underline {
+  border-bottom: 3px solid #7FCCE5;
+}
+
+.underlineblack {
+  border-bottom: 3px solid #313131;
+}
+
+
+
+
+/* Nav Bar */
+
+.nav {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid #ddd;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}
+.nav .title {
+  position: fixed;
+  left: 100px;
+  top: -10px;
+}
+
+/* Menu */
+
+.nav .menu {
+  float: right;
+  list-style: none;
+  margin-top: 5px;
+}
+.menu > li {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.menu a {
+  color: #898989;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background-image: url('images/Tempe-Home.jpeg');
+  height: 1020px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: initial;
+}
+.jumbotron .container {
+  position: relative;
+  top: 250px;
+}
+.jumbotron h1 {
+  color: #fff;
+  font-size: 80px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding: 20px;
+  text-shadow: 0px 0px 3px #000;
+}
+.jumbotron p {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding: 20px;
+  text-shadow: 0px 0px 3px #000;
+}
+.jumbotron h3 {
+  color: #fff;
+  font-size: 80px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding: 20px;
+  text-shadow: 0px 0px 3px #000;
+}
+/* About Me */
+
+.about {
+  height: 600px;
+  background-color: #ffffff;
+}
+.about .container {
+  top: 35px;
+  position: relative;
+}
+.about h3 {
+  color: #313131;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  padding:
+  20px;
+  text-align: center;
+}
+/* My Skills  */
+
+.myskills {
+  height: 600px;
+  background-color: #F7F6F6;
+}
+.myskills .container {
+  width: 1500px;
+  position: relative;
+  top: 16px;
+}
+.myskills h3 {
+  color: #808080;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  padding:
+  20px;
+  text-align: center;
+}
+/* My Work */
+
+.mywork {
+  height: 600px;
+  background-color: #FFFFFF;
+}
+.mywork .container {
+  position: relative;
+  top: 35px;
+}
+.mywork h3 {
+  color: #313131;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+
+/*footer*/
+footer{
+  margin: 100px;
+  text-align: center;
+
+  font-size: 50px;
+}
+footer>a{
+  color:white;
+}
+
+.foot{
+  background-color: gray;
+}
+
+/*gallery*/
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  padding: 10px;
+  width: 320px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+.link-button {
+  background-color: #6f7377;
+  /* Button background color */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  margin: 10px;
+}
+
+.link-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.link-button:hover {
+  background-color: #0056b3;
+  /* Hover background color */
+}
